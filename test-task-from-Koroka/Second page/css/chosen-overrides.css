@@ -1,0 +1,31 @@
+select#countries {
+	display: none;
+}
+
+.country .chosen-container-single .chosen-single {
+	height: 56px;
+	background: white;
+	box-shadow: none;
+	border: none;
+	display: flex;
+    align-items: center;
+}
+
+.country .chosen-container-single .chosen-single div b {
+    position: relative;
+    top: 18px;
+    width: 12px;
+}
+
+.country .chosen-container-active.chosen-with-drop .chosen-single div b {
+    background-position: -19px 2px;
+}
+
+.country .chosen-container-single .chosen-single abbr {
+	top: 24px;
+}
+
+.country .chosen-container-active.chosen-with-drop .chosen-single {
+	box-shadow: none;
+	background: white;
+}

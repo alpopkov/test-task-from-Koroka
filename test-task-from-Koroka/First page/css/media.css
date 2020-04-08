@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+}
+
+@media (max-width: 490px) {
+  .contact100-form-checkbox {
+    display: block;
+    align-items: center;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .header__social {
+    height: 68px;
+  }
+
+  .header__social-box {
+    height: 68px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
